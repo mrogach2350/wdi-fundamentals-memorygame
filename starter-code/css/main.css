@@ -1,0 +1,84 @@
+body {
+  background-color: rgba(138, 73, 255, 0.5);
+}
+div {
+
+}
+h1 {
+  color: rgba(122, 48, 255, 1);
+  text-align: center;
+  margin: 0 auto;
+  }
+h2 {
+  color: rgba(178, 170, 0, 1);
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  }
+h3 {
+  color: rgba(138, 73, 255, 0.5);
+  text-align: center;
+  }
+nav {
+  background: #808080;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  background: #ffbf00;
+  padding: 35px;
+  display: block;
+  float: left;
+}
+nav a:hover{
+  background: #ee5f3c;
+}
+.clearfix:after {
+      visibility: hidden;
+      display: block;
+      content: " ";
+      clear: both;
+      height: 0;
+      font-size: 0;
+    }
+p {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 5px 10px 5px;
+  color: white;
+}
+.board {
+  display: inline-block;
+  height: 50%;
+  width: 50%;
+}
+.card {
+  float: left;
+  height: 200px;
+  width: 150px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  background: yellow;
+  margin: 8%;
+}
+.card:hover{
+  background: blue;
+}
+.board:after {
+  visibility: hidden;
+  display: block;
+  content:  " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+footer {
+  clear:both;
+  text-align: center;
+  background: #808080;
+}
+#name {
+  color: #ff0000;
+}
